@@ -107,7 +107,7 @@ checkerFramework {
     '-Ainfer=ajava',
     '-Awarns',
     '-AshowPrefixInWarningMessages',
-    '-Aajava=/tmp/WPITEMP-multi-version-control',
+    '-Aajava=/tmp/WPITEMP-multi-version-control/',
     ]
 }
 
