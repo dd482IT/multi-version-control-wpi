@@ -16,10 +16,3 @@
 /Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:555: warning: [nullness:method.invocation] call to parseArgs(java.lang.String[]) not allowed on the given receiver.
     parseArgs(args);
              ^
-  found   : @UnderInitialization(org.plumelib.multiversioncontrol.MultiVersionControl.class) @NonNull MultiVersionControl
-  required: @Initialized @NonNull MultiVersionControl
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:565: warning: [nullness:unneeded.suppression] warning suppression "nullness:assignment" is not used by NullnessChecker
-    @SuppressWarnings(
-    ^
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:543: warning: [initializedfields:unneeded.suppression] warning suppression "initializedfields:contracts.postcondition" is not used by InitializedFieldsChecker
-  @SuppressWarnings({
