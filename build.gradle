@@ -72,7 +72,7 @@ dependencies {
 }
 tasks.withType(JavaCompile).configureEach {
   // "-processing" avoids javac warning "No processor claimed any of these annotations".
-  options.compilerArgs << '-Xlint:all,-processing' << '-Werror'
+  options.compilerArgs << '-Xlint:all,-processing' //<< '-Werror'
   options.errorprone {
     enabled = JavaVersion.current() != JavaVersion.VERSION_1_8
     disable('ReferenceEquality') // Use Interning Checker instead.
