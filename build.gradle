@@ -107,6 +107,7 @@ checkerFramework {
     '-AwarnUnneededSuppressions',
     '-Aannotations',
     '-Anolocations',
+    '-Xmaxerrs',
   ]
 }
 
