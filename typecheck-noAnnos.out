@@ -1,4 +1,4 @@
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:2082: error: [lowerbound:override.return] Incompatible return type.
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:2082: warning: [lowerbound:override.return] Incompatible return type.
     public int read() {
            ^
   found   : int
@@ -7,28 +7,152 @@
     int read(StreamOfNewlines this)
   cannot override method in InputStream
     @GTENegativeOne int read(InputStream this) throws IOException
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:303: error: [interning:type.checking.not.run] InterningChecker did not run because of a previous error issued by javac
-public class MultiVersionControl {
-       ^
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:303: error: [lock:type.checking.not.run] LockChecker did not run because of a previous error issued by javac
-public class MultiVersionControl {
-       ^
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:303: error: [nullness:type.checking.not.run] NullnessChecker did not run because of a previous error issued by javac
-public class MultiVersionControl {
-       ^
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:303: error: [regex:type.checking.not.run] RegexChecker did not run because of a previous error issued by javac
-public class MultiVersionControl {
-       ^
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:303: error: [builder:type.checking.not.run] ResourceLeakChecker did not run because of a previous error issued by javac
-public class MultiVersionControl {
-       ^
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:303: error: [signature:type.checking.not.run] SignatureChecker did not run because of a previous error issued by javac
-public class MultiVersionControl {
-       ^
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:303: error: [signedness:type.checking.not.run] SignednessChecker did not run because of a previous error issued by javac
-public class MultiVersionControl {
-       ^
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:303: error: [initializedfields:type.checking.not.run] InitializedFieldsChecker did not run because of a previous error issued by javac
-public class MultiVersionControl {
-       ^
-9 errors
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:763: warning: [lock:override.param] Incompatible parameter type for other.
+    public boolean equals(Checkout this, Object other) {
+                                                ^
+  found   : @GuardedBy Object
+  required: @GuardSatisfied Object
+  Consequence: method in @GuardedBy Checkout
+    @GuardedBy boolean equals(@GuardedBy Checkout this, @GuardedBy Object p0)
+  cannot override method in @GuardedBy Object
+    @GuardedBy boolean equals(@GuardSatisfied Object this, @GuardSatisfied Object p0)
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:763: warning: [lock:override.receiver] Incompatible receiver type
+    public boolean equals(Checkout this, Object other) {
+                   ^
+  found   : @GuardedBy Checkout
+  required: @GuardSatisfied Object
+  Consequence: method in @GuardedBy Checkout
+    @GuardedBy boolean equals(@GuardedBy Checkout this, @GuardedBy Object p0)
+  cannot override method in @GuardedBy Object
+    @GuardedBy boolean equals(@GuardSatisfied Object this, @GuardSatisfied Object p0)
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:774: warning: [lock:override.receiver] Incompatible receiver type
+    public int hashCode(Checkout this) {
+               ^
+  found   : @GuardedBy Checkout
+  required: @GuardSatisfied Object
+  Consequence: method in @GuardedBy Checkout
+    @GuardedBy int hashCode(@GuardedBy Checkout this)
+  cannot override method in @GuardedBy Object
+    @GuardedBy int hashCode(@GuardSatisfied Object this)
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:779: warning: [lock:override.receiver] Incompatible receiver type
+    public String toString(Checkout this) {
+                  ^
+  found   : @GuardedBy Checkout
+  required: @GuardSatisfied Object
+  Consequence: method in @GuardedBy Checkout
+    @GuardedBy String toString(@GuardedBy Checkout this)
+  cannot override method in @GuardedBy Object
+    @GuardedBy String toString(@GuardSatisfied Object this)
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:554: warning: [nullness:initialization.fields.uninitialized] the constructor does not initialize fields: action
+  public MultiVersionControl(String[] args) {
+         ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:555: warning: [nullness:method.invocation] call to parseArgs(java.lang.String[]) not allowed on the given receiver.
+    parseArgs(args);
+             ^
+  found   : @UnderInitialization @NonNull MultiVersionControl
+  required: @Initialized @NonNull MultiVersionControl
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:565: warning: [nullness:unneeded.suppression] warning suppression "nullness:assignment" is not used by NullnessChecker
+    @SuppressWarnings(
+    ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:679: warning: [nullness:argument] incompatible argument for parameter repository of Checkout.
+      this(repoType, directory, null, null);
+                                ^
+  found   : null (NullType)
+  required: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:679: warning: [nullness:argument] incompatible argument for parameter module of Checkout.
+      this(repoType, directory, null, null);
+                                      ^
+  found   : null (NullType)
+  required: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:763: warning: [nullness:override.param] Incompatible parameter type for other.
+    public boolean equals(Checkout this, Object other) {
+                                                ^
+  found   : @Initialized @NonNull Object
+  required: @Initialized @Nullable Object
+  Consequence: method in @Initialized @NonNull Checkout
+    @Initialized @NonNull boolean equals(@Initialized @NonNull Checkout this, @Initialized @NonNull Object p0)
+  cannot override method in @Initialized @NonNull Object
+    @Initialized @NonNull boolean equals(@Initialized @NonNull Object this, @Initialized @Nullable Object p0)
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:895: warning: [nullness:argument] incompatible argument for parameter module of Checkout.
+        Checkout checkout = new Checkout(currentType, dir, root, module);
+                                                                 ^
+  found   : @Initialized @Nullable String
+  required: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:928: warning: [nullness:argument] incompatible argument for parameter module of Checkout.
+              checkouts.add(new Checkout(currentType, sibling, root, module));
+                                                                     ^
+  found   : @Initialized @Nullable String
+  required: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1015: warning: [nullness:argument] incompatible argument for parameter repository of Checkout.
+        checkouts.add(new Checkout(RepoType.BZR, parent, null, null));
+                                                         ^
+  found   : null (NullType)
+  required: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1015: warning: [nullness:argument] incompatible argument for parameter module of Checkout.
+        checkouts.add(new Checkout(RepoType.BZR, parent, null, null));
+                                                               ^
+  found   : null (NullType)
+  required: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1148: warning: [nullness:argument] incompatible argument for parameter repository of Checkout.
+    return new Checkout(RepoType.HG, parentDir, repository, null);
+                                                ^
+  found   : @Initialized @Nullable String
+  required: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1148: warning: [nullness:argument] incompatible argument for parameter module of Checkout.
+    return new Checkout(RepoType.HG, parentDir, repository, null);
+                                                            ^
+  found   : null (NullType)
+  required: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1161: warning: [nullness:argument] incompatible argument for parameter module of Checkout.
+    return new Checkout(RepoType.GIT, parentDir, repository, null);
+                                                             ^
+  found   : null (NullType)
+  required: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1195: warning: [nullness:return] incompatible types in return.
+      return null;
+             ^
+  type of expression: null (NullType)
+  method return type: @Initialized @NonNull Checkout
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1247: warning: [nullness:argument] incompatible argument for parameter module of Checkout.
+    return new Checkout(RepoType.SVN, dirRelative, url.toString(), null);
+                                                                   ^
+  found   : null (NullType)
+  required: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1313: warning: [nullness:argument] incompatible argument for parameter file1 of FilePair.
+    return new FilePair(r1, r2);
+                        ^
+  found   : @Initialized @Nullable File
+  required: @Initialized @NonNull File
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1313: warning: [nullness:argument] incompatible argument for parameter file2 of FilePair.
+    return new FilePair(r1, r2);
+                            ^
+  found   : @Initialized @Nullable File
+  required: @Initialized @NonNull File
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1883: warning: [nullness:return] incompatible types in return.
+          return m.group(1);
+                        ^
+  type of expression: @Initialized @Nullable String
+  method return type: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1888: warning: [nullness:return] incompatible types in return.
+      return null;
+             ^
+  type of expression: null (NullType)
+  method return type: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1890: warning: [nullness:return] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @Initialized @NonNull String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1361: warning: [regex:argument] incompatible argument for parameter regex of compile.
+      this.regexp = Pattern.compile(regexp);
+                                    ^
+  found   : String
+  required: @Regex String
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1883: warning: [regex:group.count] invalid groups parameter 1. Only 0 groups are guaranteed to exist for m.
+          return m.group(1);
+                         ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:554: warning: [initializedfields:contracts.postcondition] postcondition of <init> is not satisfied.
+  public MultiVersionControl(String[] args) {
+         ^
+  found   : this is @InitializedFields({"checkouts", "cvsArg", "cvsExecutable", "debugProcessOutput", "debugReplacers", "defaultPattern", "dir", "dryRun", "gitArg", "gitExecutable", "hgArg", "hgExecutable", "ignoreDir", "ignoreDirs", "insecure", "invalidCertificatePattern", "printDirectory", "quiet", "redoExisting", "search", "searchPrefix", "show", "svnArg", "svnExecutable", "timeout"})
+  required: this is @InitializedFields("action")
