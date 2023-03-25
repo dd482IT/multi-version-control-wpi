@@ -87,13 +87,13 @@ org.checkerframework.checker.regex.qual.RegexBottom
 @UpperBoundUnknown
 @org.checkerframework.checker.index.qual.UpperBoundUnknown
 @UpperBoundBottom
-@org.checkerframework.checker.index.qual
+@org.checkerframework.checker.index.qual.UpperBoundBottom
 @EnsuresLTLengthOf
-@org.checkerframework.checker.index.qual
+@org.checkerframework.checker.index.qual.EnsuresLTLengthOf
 @EnsuresLTLengthOfIf
-@org.checkerframework.checker.index.qual
+@org.checkerframework.checker.index.qual.EnsuresLTLengthOfIf
 @HasSubsequence
-@org.checkerframework.checker.index.qual
+@org.checkerframework.checker.index.qual.HasSubsequence
 @FullyQualifiedName
 @org.checkerframework.checker.signature.qual.FullyQualifiedName
 @ClassGetName
@@ -188,6 +188,3 @@ org.checkerframework.checker.regex.qual.RegexBottom
 @org.checkerframework.checker.signedness.qual.UnknownSignedness
 @SignednessBottom
 @org.checkerframework.checker.signedness.qual.SignednessBottom
-
-
-    'org.checkerframework.checker.signedness.SignednessChecker',
