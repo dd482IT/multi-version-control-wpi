@@ -12,7 +12,6 @@
 @org.checkerframework.framework.qual.RequiresQualifierIf
 @EnsuresQualiferIf
 org.checkerframework.framework.qual.EnsuresQualiferIf
-
 @Nullable
 @org.checkerframework.checker.nullness.qual.Nullable
 @NonNull 
@@ -172,7 +171,7 @@ org.checkerframework.checker.regex.qual.RegexBottom
 @UnderInitialization
 @org.checkerframework.checker.initialization.qual.UnderInitialization
 @NotOnlyInitialized 
-@org.checkerframework.checker.initialization.qual.NotOnlyInitialized
+@org.checkerframework.checker.initialization.qual.NotOnlyInistialized
 @Unsigned
 @org.checkerframework.checker.signedness.qual.Unsigned
 @Signed
