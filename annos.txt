@@ -71,7 +71,7 @@ org.checkerframework.checker.regex.qual.RegexBottom
 @PolyLowerBound
 @org.checkerframework.checker.index.qual.PolyLowerBound
 @LowerBoundUnknown
-@org.checkerframework.checker.index.qual.LowerBoundBottom
+@org.checkerframework.checker.index.qual.LowerBoundUnknown
 @LowerBoundBottom
 @org.checkerframework.checker.index.qual.LowerBoundBottom
 @LTLengthOf
