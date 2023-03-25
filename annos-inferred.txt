@@ -1,0 +1,1981 @@
+@Pure :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000708 seconds spent searching
+0.003246 seconds
+@org.checkerframework.dataflow.qual.Pure :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.mustcall.MustCallChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.IndexChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.lock.LockChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.resourceleak.ResourceLeakChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.interning.InterningChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.inequality.LessThanChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.common.returnsreceiver.ReturnsReceiverChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.substringindex.SubstringIndexChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.KeyForSubchecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.regex.RegexChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signedness.SignednessChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.lowerbound.LowerBoundChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.searchindex.SearchIndexChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.common.value.ValueChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signature.SignatureChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.formatter.FormatterChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.NullnessChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.samelen.SameLenChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.common.initializedfields.InitializedFieldsChecker.ajava:4
+
+76 matches
+76 matched lines
+19 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.040694 seconds spent searching
+0.007583 seconds
+@SideEffectFree :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000408 seconds spent searching
+0.003137 seconds
+@org.checkerframework.dataflow.qual.SideEffectFree :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.mustcall.MustCallChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.IndexChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.KeyForSubchecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.lock.LockChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signature.SignatureChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.regex.RegexChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.resourceleak.ResourceLeakChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.interning.InterningChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.common.value.ValueChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.lowerbound.LowerBoundChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.NullnessChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.inequality.LessThanChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.substringindex.SubstringIndexChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signedness.SignednessChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.searchindex.SearchIndexChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.common.returnsreceiver.ReturnsReceiverChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.samelen.SameLenChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.common.initializedfields.InitializedFieldsChecker.ajava:7
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.formatter.FormatterChecker.ajava:7
+
+133 matches
+133 matched lines
+19 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.044616 seconds spent searching
+0.009307 seconds
+@Deterministic :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000455 seconds spent searching
+0.002716 seconds
+@org.checkerframework.dataflow.qual.Deterministic :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.021691 seconds spent searching
+0.005450 seconds
+@RequiresQualifier :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000320 seconds spent searching
+0.002603 seconds
+@org.checkerframework.framework.qual.RequiresQualifier :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signature.SignatureChecker.ajava:4
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.regex.RegexChecker.ajava:5
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signedness.SignednessChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.interning.InterningChecker.ajava:5
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.lowerbound.LowerBoundChecker.ajava:1
+
+16 matches
+16 matched lines
+5 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.006581 seconds spent searching
+0.003961 seconds
+@EnsuresQualifer :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000288 seconds spent searching
+0.002672 seconds
+@org.checkerframework.framework.qual.EnsuresQualifer :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.022093 seconds spent searching
+0.005709 seconds
+@RequiresQualifierIf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000295 seconds spent searching
+0.002669 seconds
+@org.checkerframework.framework.qual.RequiresQualifierIf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000275 seconds spent searching
+0.002600 seconds
+@EnsuresQualiferIf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000311 seconds spent searching
+0.002639 seconds
+org.checkerframework.framework.qual.EnsuresQualiferIf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000293 seconds spent searching
+0.002559 seconds
+@Nullable :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000354 seconds spent searching
+0.003359 seconds
+@org.checkerframework.checker.nullness.qual.Nullable :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.NullnessChecker.ajava:7
+
+7 matches
+5 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.017896 seconds spent searching
+0.005292 seconds
+@NonNull :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000369 seconds spent searching
+0.002662 seconds
+@org.checkerframework.checker.nullness.qual.NonNull :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.NullnessChecker.ajava:80
+
+80 matches
+43 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.018555 seconds spent searching
+0.006426 seconds
+@PolyNull :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000375 seconds spent searching
+0.002628 seconds
+@org.checkerframework.checker.nullness.qual.PolyNull :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019213 seconds spent searching
+0.005189 seconds
+@MonotonicNonNull :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000385 seconds spent searching
+0.002624 seconds
+@org.checkerframework.checker.nullness.qual.MonotonicNonNull :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.NullnessChecker.ajava:5
+
+5 matches
+5 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.001580 seconds spent searching
+0.003737 seconds
+@RequiresNonNull :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000364 seconds spent searching
+0.002581 seconds
+@org.checkerframework.checker.nullness.qual.RequiresNonNull :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.NullnessChecker.ajava:7
+
+7 matches
+7 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019529 seconds spent searching
+0.006522 seconds
+@EnsuresNonNull :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000362 seconds spent searching
+0.002721 seconds
+@org.checkerframework.checker.nullness.qual.EnsuresNonNull :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.NullnessChecker.ajava:9
+
+9 matches
+9 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.018864 seconds spent searching
+0.005347 seconds
+@EnsuresNonNullIf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000374 seconds spent searching
+0.003792 seconds
+@org.checkerframework.checker.nullness.qual.EnsuresNonNullIf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000334 seconds spent searching
+0.003876 seconds
+@Format :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000432 seconds spent searching
+0.002695 seconds
+@org.checkerframework.checker.formatter.qual.Format :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.formatter.FormatterChecker.ajava:5
+
+5 matches
+5 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020744 seconds spent searching
+0.005346 seconds
+@InvalidFormat :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000524 seconds spent searching
+0.003960 seconds
+@org.checkerframework.checker.formatter.qual.InvalidFormat :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.022089 seconds spent searching
+0.006928 seconds
+@FormatBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000391 seconds spent searching
+0.002760 seconds
+@org.checkerframework.checker.formatter.qual.FormatBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.021486 seconds spent searching
+0.005637 seconds
+@UnknownFormat :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000484 seconds spent searching
+0.002851 seconds
+@org.checkerframework.checker.formatter.qual.UnknownFormat :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020139 seconds spent searching
+0.006711 seconds
+@MaybePresent :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000503 seconds spent searching
+0.002705 seconds
+@org.checkerframework.checker.optional.qual.MaybePresent :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019445 seconds spent searching
+0.005427 seconds
+@Present :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000390 seconds spent searching
+0.002598 seconds
+@org.checkerframework.checker.optional.qual.Present :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.016894 seconds spent searching
+0.005005 seconds
+@OptionalBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000386 seconds spent searching
+0.002757 seconds
+@org.checkerframework.checker.optional.qual.OptionalBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019406 seconds spent searching
+0.005335 seconds
+@PolyPresent :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000371 seconds spent searching
+0.002627 seconds
+@org.checkerframework.checker.optional.qual.PolyPresent :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.018756 seconds spent searching
+0.005264 seconds
+@Regex :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000370 seconds spent searching
+0.003336 seconds
+org.checkerframework.checker.regex.qual.Regex :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.mustcall.MustCallChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signedness.SignednessChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signature.SignatureChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.lock.LockChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.formatter.FormatterChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.regex.RegexChecker.ajava:18
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.interning.InterningChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.resourceleak.ResourceLeakChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.inequality.LessThanChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.IndexChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.KeyForSubchecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.NullnessChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.lowerbound.LowerBoundChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.searchindex.SearchIndexChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.common.value.ValueChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.common.initializedfields.InitializedFieldsChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.common.returnsreceiver.ReturnsReceiverChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.substringindex.SubstringIndexChecker.ajava:1
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.samelen.SameLenChecker.ajava:1
+
+36 matches
+36 matched lines
+19 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.022768 seconds spent searching
+0.007081 seconds
+@PolyRegex :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000363 seconds spent searching
+0.003374 seconds
+org.checkerframework.checker.regex.qual.PolyRegex :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.021765 seconds spent searching
+0.005920 seconds
+@UnknownRegex :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000367 seconds spent searching
+0.002671 seconds
+org.checkerframework.checker.regex.qual.UnknownRegex :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.021921 seconds spent searching
+0.005857 seconds
+@RegexBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000358 seconds spent searching
+0.002622 seconds
+org.checkerframework.checker.regex.qual.RegexBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.022890 seconds spent searching
+0.006198 seconds
+@IndexFor :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000363 seconds spent searching
+0.002582 seconds
+@org.checkerframework.checker.index.qual.IndexFor :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019412 seconds spent searching
+0.005207 seconds
+@IndexOrHigh :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000358 seconds spent searching
+0.002684 seconds
+@org.checkerframework.checker.index.qual.IndexOrHigh :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019760 seconds spent searching
+0.005359 seconds
+@LengthOf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000347 seconds spent searching
+0.002663 seconds
+@org.checkerframework.checker.index.qual.LengthOf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.017553 seconds spent searching
+0.005479 seconds
+@IndexOrLow :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000370 seconds spent searching
+0.003349 seconds
+@org.checkerframework.checker.index.qual.IndexOrLow :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.018142 seconds spent searching
+0.005281 seconds
+@PolyIndex :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000357 seconds spent searching
+0.002602 seconds
+@org.checkerframework.checker.index.qual.PolyIndex :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019961 seconds spent searching
+0.005670 seconds
+@PolyLength :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000366 seconds spent searching
+0.003354 seconds
+@org.checkerframework.checker.index.qual.PolyLength :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019684 seconds spent searching
+0.006686 seconds
+@Positive :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000372 seconds spent searching
+0.002623 seconds
+@org.checkerframework.checker.index.qual.Positive :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.lowerbound.LowerBoundChecker.ajava:2
+
+2 matches
+2 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020295 seconds spent searching
+0.005598 seconds
+@NonNegative :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000376 seconds spent searching
+0.002616 seconds
+@@org.checkerframework.checker.index.qual.NonNegative :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.013972 seconds spent searching
+0.004658 seconds
+@GTENegativeOne :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000377 seconds spent searching
+0.002687 seconds
+@@org.checkerframework.checker.index.qual.GTENegativeOne :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.016428 seconds spent searching
+0.004842 seconds
+@PolyLowerBound :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000382 seconds spent searching
+0.003349 seconds
+@org.checkerframework.checker.index.qual.PolyLowerBound :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.021629 seconds spent searching
+0.005839 seconds
+@LowerBoundUnknown :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000375 seconds spent searching
+0.003374 seconds
+@org.checkerframework.checker.index.qual.LowerBoundBottom :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.lowerbound.LowerBoundChecker.ajava:2
+
+2 matches
+2 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.001410 seconds spent searching
+0.003435 seconds
+@LowerBoundBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000374 seconds spent searching
+0.002612 seconds
+@org.checkerframework.checker.index.qual.LowerBoundBottom :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.lowerbound.LowerBoundChecker.ajava:2
+
+2 matches
+2 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.001574 seconds spent searching
+0.003466 seconds
+@LTLengthOf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000394 seconds spent searching
+0.002709 seconds
+@org.checkerframework.checker.index.qual.LTLengthOf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.021275 seconds spent searching
+0.005685 seconds
+@LTEqLengthOf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000379 seconds spent searching
+0.002749 seconds
+@org.checkerframework.checker.index.qual.LTEqLengthOf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.022724 seconds spent searching
+0.005821 seconds
+@LTOMLengthOf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000652 seconds spent searching
+0.002753 seconds
+@org.checkerframework.checker.index.qual.LTOMLengthOf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019524 seconds spent searching
+0.005845 seconds
+@UpperBoundLiteral :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000362 seconds spent searching
+0.002553 seconds
+@org.checkerframework.checker.index.qual.UpperBoundLiteral :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.IndexChecker.ajava:1
+
+1 matches
+1 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.001454 seconds spent searching
+0.003354 seconds
+@PolyUpperBound :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000351 seconds spent searching
+0.002594 seconds
+@org.checkerframework.checker.index.qual.PolyUpperBound :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020064 seconds spent searching
+0.005418 seconds
+@UpperBoundUnknown :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000357 seconds spent searching
+0.002538 seconds
+@org.checkerframework.checker.index.qual.UpperBoundUnknown :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000304 seconds spent searching
+0.002453 seconds
+@UpperBoundBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000347 seconds spent searching
+0.002434 seconds
+@org.checkerframework.checker.index.qual.UpperBoundBottom :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.index.IndexChecker.ajava:2
+
+2 matches
+2 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.001436 seconds spent searching
+0.003354 seconds
+@EnsuresLTLengthOf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000359 seconds spent searching
+0.003384 seconds
+@org.checkerframework.checker.index.qual.EnsuresLTLengthOf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000349 seconds spent searching
+0.002598 seconds
+@EnsuresLTLengthOfIf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000361 seconds spent searching
+0.002502 seconds
+@org.checkerframework.checker.index.qual.EnsuresLTLengthOfIf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000352 seconds spent searching
+0.002560 seconds
+@HasSubsequence :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000357 seconds spent searching
+0.002619 seconds
+@org.checkerframework.checker.index.qual.HasSubsequence :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019778 seconds spent searching
+0.005315 seconds
+@FullyQualifiedName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000294 seconds spent searching
+0.002579 seconds
+@org.checkerframework.checker.signature.qual.FullyQualifiedName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000304 seconds spent searching
+0.002556 seconds
+@ClassGetName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000356 seconds spent searching
+0.002602 seconds
+@org.checkerframework.checker.signature.qual.ClassGetName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020201 seconds spent searching
+0.006624 seconds
+@FieldDescriptor :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000367 seconds spent searching
+0.002549 seconds
+@org.checkerframework.checker.signature.qual.FieldDescriptor :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019616 seconds spent searching
+0.005448 seconds
+@BinaryName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000376 seconds spent searching
+0.002618 seconds
+@org.checkerframework.checker.signature.qual.BinaryName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019745 seconds spent searching
+0.005272 seconds
+@InternalForm :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000361 seconds spent searching
+0.002714 seconds
+@org.checkerframework.checker.signature.qual.InternalForm :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019153 seconds spent searching
+0.005283 seconds
+@ClassGetSimpleName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000366 seconds spent searching
+0.002673 seconds
+@org.checkerframework.checker.signature.qual.ClassGetSimpleName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000312 seconds spent searching
+0.002541 seconds
+@FqBinaryName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000379 seconds spent searching
+0.003379 seconds
+@org.checkerframework.checker.signature.qual.FqBinaryName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.021374 seconds spent searching
+0.005520 seconds
+@CanonicalName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000380 seconds spent searching
+0.003731 seconds
+@org.checkerframework.checker.signature.qual.CanonicalName :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020637 seconds spent searching
+0.005662 seconds
+@MethodDescriptor :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000418 seconds spent searching
+0.003316 seconds
+@org.checkerframework.checker.signature.qual.MethodDescriptor :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000366 seconds spent searching
+0.002531 seconds
+@GuardedBy :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000370 seconds spent searching
+0.002571 seconds
+@org.checkerframework.checker.lock.qual.GuardedBy :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.lock.LockChecker.ajava:60
+
+60 matches
+43 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.021117 seconds spent searching
+0.006821 seconds
+@GuardedByUnknown :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000378 seconds spent searching
+0.002601 seconds
+@org.checkerframework.checker.lock.qual.GuardedByUnknown :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000313 seconds spent searching
+0.002697 seconds
+@NewObject :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000377 seconds spent searching
+0.002621 seconds
+@org.checkerframework.checker.lock.qual.NewObject :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.lock.LockChecker.ajava:37
+
+37 matches
+21 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.022267 seconds spent searching
+0.005197 seconds
+@GuardedByBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000391 seconds spent searching
+0.002705 seconds
+@org.checkerframework.checker.lock.qual.GuardedByBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019211 seconds spent searching
+0.005494 seconds
+@GuardSatisfied :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000375 seconds spent searching
+0.002588 seconds
+@org.checkerframework.checker.lock.qual.GuardSatisfied :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.lock.LockChecker.ajava:4
+
+4 matches
+3 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020717 seconds spent searching
+0.005604 seconds
+@Holding :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000366 seconds spent searching
+0.002574 seconds
+@org.checkerframework.checker.lock.qual.Holding :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.017924 seconds spent searching
+0.005071 seconds
+@EnsuresLockHeld :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000393 seconds spent searching
+0.002719 seconds
+@org.checkerframework.checker.lock.qual.EnsuresLockHeld :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.017224 seconds spent searching
+0.005196 seconds
+@EnsuresLockHeldIf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000364 seconds spent searching
+0.002682 seconds
+@org.checkerframework.checker.lock.qual.EnsuresLockHeldIf :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000300 seconds spent searching
+0.002665 seconds
+@ReleasesNoLocks :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000358 seconds spent searching
+0.002556 seconds
+@org.checkerframework.checker.lock.qual.ReleasesNoLocks :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.016941 seconds spent searching
+0.005329 seconds
+@MayReleaseLocks :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000360 seconds spent searching
+0.002626 seconds
+@org.checkerframework.checker.lock.qual.MayReleaseLocks :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.018765 seconds spent searching
+0.006488 seconds
+@MustCall :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000363 seconds spent searching
+0.002708 seconds
+@org.checkerframework.checker.mustcall.qual.MustCall :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.mustcall.MustCallChecker.ajava:101
+
+101 matches
+49 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.022920 seconds spent searching
+0.006778 seconds
+@InheritableMustCall :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000379 seconds spent searching
+0.002625 seconds
+@org.checkerframework.checker.mustcall.qual.InheritableMustCall :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000328 seconds spent searching
+0.002619 seconds
+@EnsuresCalledMethods :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000375 seconds spent searching
+0.003341 seconds
+@org.checkerframework.checker.mustcall.qual.EnsuresCalledMethods :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.001212 seconds spent searching
+0.003757 seconds
+@Owning :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000386 seconds spent searching
+0.002521 seconds
+@org.checkerframework.checker.mustcall.qual.Owning :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.016647 seconds spent searching
+0.005266 seconds
+@NotOwning :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000370 seconds spent searching
+0.002595 seconds
+@org.checkerframework.checker.mustcall.qual.NotOwning :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020064 seconds spent searching
+0.005289 seconds
+@MustCallAlias :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000362 seconds spent searching
+0.003366 seconds
+@org.checkerframework.checker.mustcall.qual.MustCallAlias :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019190 seconds spent searching
+0.005346 seconds
+@CreatesMustCallFor :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000361 seconds spent searching
+0.002723 seconds
+@org.checkerframework.checker.mustcall.qual.CreatesMustCallFor :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000427 seconds spent searching
+0.002769 seconds
+@Interned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000386 seconds spent searching
+0.002601 seconds
+@org.checkerframework.checker.interning.Interned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.018307 seconds spent searching
+0.005640 seconds
+@InternedDistinct :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000408 seconds spent searching
+0.002595 seconds
+@org.checkerframework.checker.interningInternedDistinct :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000368 seconds spent searching
+0.002665 seconds
+@UnknownInterned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000365 seconds spent searching
+0.002515 seconds
+@org.checkerframework.checker.interning.UnknownInterned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019542 seconds spent searching
+0.005233 seconds
+@PolyInterned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000372 seconds spent searching
+0.003335 seconds
+@org.checkerframework.checker.interning.PolyInterned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019114 seconds spent searching
+0.005415 seconds
+@UsesObjectEquals :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000387 seconds spent searching
+0.002537 seconds
+@org.checkerframework.checker.interning.UsesObjectEquals :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000314 seconds spent searching
+0.002695 seconds
+@InternMethod :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000359 seconds spent searching
+0.002631 seconds
+@org.checkerframework.checker.interning.InternMethod :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.017947 seconds spent searching
+0.004852 seconds
+@EqualsMethod :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000363 seconds spent searching
+0.003347 seconds
+@org.checkerframework.checker.interning.EqualsMethod :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019084 seconds spent searching
+0.005775 seconds
+@CompareToMethod :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000385 seconds spent searching
+0.002618 seconds
+@org.checkerframework.checker.interning.CompareToMethod :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020424 seconds spent searching
+0.005411 seconds
+@FindDistinct :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000396 seconds spent searching
+0.003797 seconds
+@org.checkerframework.checker.interning.FindDistinct :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.018863 seconds spent searching
+0.005131 seconds
+@Initialized :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000368 seconds spent searching
+0.002672 seconds
+@org.checkerframework.checker.initialization.qual.Initialized :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.nullness.NullnessChecker.ajava:92
+
+92 matches
+49 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020213 seconds spent searching
+0.005525 seconds
+@UnknownInitialization :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000371 seconds spent searching
+0.002642 seconds
+@org.checkerframework.checker.initialization.qual.UnknownInitialization :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.003837 seconds spent searching
+0.003127 seconds
+@UnderInitialization :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000368 seconds spent searching
+0.002577 seconds
+@org.checkerframework.checker.initialization.qual.UnderInitialization :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000333 seconds spent searching
+0.002538 seconds
+@NotOnlyInitialized :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000376 seconds spent searching
+0.002572 seconds
+@org.checkerframework.checker.initialization.qual.NotOnlyInistialized :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000332 seconds spent searching
+0.003351 seconds
+@Unsigned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000358 seconds spent searching
+0.002565 seconds
+@org.checkerframework.checker.signedness.qual.Unsigned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.016951 seconds spent searching
+0.005099 seconds
+@Signed :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000402 seconds spent searching
+0.002750 seconds
+@org.checkerframework.checker.signedness.qual.Signed :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signedness.SignednessChecker.ajava:99
+
+99 matches
+48 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.017113 seconds spent searching
+0.004898 seconds
+@SignedPositive :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000375 seconds spent searching
+0.003350 seconds
+@org.checkerframework.checker.signedness.qual.SignedPositive :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.019541 seconds spent searching
+0.005421 seconds
+@SignedPositiveFromUnsigned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000364 seconds spent searching
+0.002547 seconds
+@org.checkerframework.checker.signedness.qual.SignedPositiveFromUnsigned :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signedness.SignednessChecker.ajava:1
+
+1 matches
+1 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.001607 seconds spent searching
+0.004005 seconds
+@SignednessGlb :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000370 seconds spent searching
+0.002568 seconds
+@org.checkerframework.checker.signedness.qual.SignednessGlb :
+wpi-annotations/org/plumelib/multiversioncontrol/MultiVersionControl-org.checkerframework.checker.signedness.SignednessChecker.ajava:1
+
+1 matches
+1 matched lines
+1 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.020952 seconds spent searching
+0.006029 seconds
+@PolySigned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000407 seconds spent searching
+0.002686 seconds
+@org.checkerframework.checker.signedness.qual.PolySigned :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.022368 seconds spent searching
+0.005797 seconds
+@UnknownSignedness :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000376 seconds spent searching
+0.003474 seconds
+@org.checkerframework.checker.signedness.qual.UnknownSignedness :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000317 seconds spent searching
+0.002563 seconds
+@SignednessBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000364 seconds spent searching
+0.003379 seconds
+@org.checkerframework.checker.signedness.qual.SignednessBottom :
+
+0 matches
+0 matched lines
+0 files contained matches
+19 files searched
+0 bytes printed
+1737739 bytes searched
+0.000330 seconds spent searching
+0.002602 seconds

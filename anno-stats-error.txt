@@ -1,0 +1,320 @@
+> Task :compileJava FAILED
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:345: error: annotation type not applicable to this kind of declaration
+    private @org.checkerframework.checker.signature.qual.SignatureUnknown List<File> ignoreDirs = new ArrayList<>();
+            ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:465: error: annotation type not applicable to this kind of declaration
+    private static @org.checkerframework.checker.signature.qual.SignatureUnknown Action CLONE = Action.CLONE;
+                   ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:470: error: annotation type not applicable to this kind of declaration
+    private static @org.checkerframework.checker.signature.qual.SignatureUnknown Action STATUS = Action.STATUS;
+                   ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:475: error: annotation type not applicable to this kind of declaration
+    private static @org.checkerframework.checker.signature.qual.SignatureUnknown Action PULL = Action.PULL;
+                   ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:480: error: annotation type not applicable to this kind of declaration
+    private static @org.checkerframework.checker.signature.qual.SignatureUnknown Action LIST = Action.LIST;
+                   ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:485: error: annotation type not applicable to this kind of declaration
+    private @org.checkerframework.checker.signature.qual.SignatureUnknown Action action;
+            ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:494: error: annotation type not applicable to this kind of declaration
+    private static @org.checkerframework.checker.signature.qual.SignatureUnknown String expandTilde(@org.checkerframework.checker.signature.qual.SignatureUnknown String path) {
+                                                                                                    ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:494: error: annotation type not applicable to this kind of declaration
+    private static @org.checkerframework.checker.signature.qual.SignatureUnknown String expandTilde(@org.checkerframework.checker.signature.qual.SignatureUnknown String path) {
+                   ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:576: error: annotation type not applicable to this kind of declaration
+    public MultiVersionControl(@org.checkerframework.checker.signature.qual.SignatureUnknown String @org.checkerframework.checker.signature.qual.SignatureUnknown [] args) {
+                               ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:590: error: annotation type not applicable to this kind of declaration
+    public void parseArgs(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown String @org.checkerframework.checker.signature.qual.SignatureUnknown [] args) {
+                                                                                                                  ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:590: error: annotation type not applicable to this kind of declaration
+    public void parseArgs(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown String @org.checkerframework.checker.signature.qual.SignatureUnknown [] args) {
+                          ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:835: error: annotation type not applicable to this kind of declaration
+    static void readCheckouts(@org.checkerframework.checker.signature.qual.SignatureUnknown File file, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts,  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean searchPrefix) throws IOException {
+                              ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:835: error: annotation type not applicable to this kind of declaration
+    static void readCheckouts(@org.checkerframework.checker.signature.qual.SignatureUnknown File file, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts,  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean searchPrefix) throws IOException {
+                                                                                                       ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:835: error: annotation type not applicable to this kind of declaration
+    static void readCheckouts(@org.checkerframework.checker.signature.qual.SignatureUnknown File file, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts,  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean searchPrefix) throws IOException {
+                                                                                                                                                                                               ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1004: error: annotation type not applicable to this kind of declaration
+    private static void findCheckouts(@org.checkerframework.checker.signature.qual.SignatureUnknown File dir, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts, @org.checkerframework.checker.signature.qual.SignatureUnknown List<File> ignoreDirs) {
+                                      ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1004: error: annotation type not applicable to this kind of declaration
+    private static void findCheckouts(@org.checkerframework.checker.signature.qual.SignatureUnknown File dir, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts, @org.checkerframework.checker.signature.qual.SignatureUnknown List<File> ignoreDirs) {
+                                                                                                              ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1004: error: annotation type not applicable to this kind of declaration
+    private static void findCheckouts(@org.checkerframework.checker.signature.qual.SignatureUnknown File dir, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts, @org.checkerframework.checker.signature.qual.SignatureUnknown List<File> ignoreDirs) {
+                                                                                                                                                                                                     ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1092: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown IsDirectoryFilter idf = new IsDirectoryFilter();
+           ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1102: error: annotation type not applicable to this kind of declaration
+    static void addCheckoutCvs(@org.checkerframework.checker.signature.qual.SignatureUnknown File cvsDir, @org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts) {
+                               ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1102: error: annotation type not applicable to this kind of declaration
+    static void addCheckoutCvs(@org.checkerframework.checker.signature.qual.SignatureUnknown File cvsDir, @org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts) {
+                                                                                                          ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1102: error: annotation type not applicable to this kind of declaration
+    static void addCheckoutCvs(@org.checkerframework.checker.signature.qual.SignatureUnknown File cvsDir, @org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts) {
+                                                                                                                                                                                        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1140: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown Checkout dirToCheckoutHg(@org.checkerframework.checker.signature.qual.SignatureUnknown File hgDir, @org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir) {
+                                                                                                  ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1140: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown Checkout dirToCheckoutHg(@org.checkerframework.checker.signature.qual.SignatureUnknown File hgDir, @org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir) {
+                                                                                                                                                                            ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1140: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown Checkout dirToCheckoutHg(@org.checkerframework.checker.signature.qual.SignatureUnknown File hgDir, @org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir) {
+           ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1169: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown Checkout dirToCheckoutGit(@org.checkerframework.checker.signature.qual.SignatureUnknown File gitDir, @org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir) {
+                                                                                                   ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1169: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown Checkout dirToCheckoutGit(@org.checkerframework.checker.signature.qual.SignatureUnknown File gitDir, @org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir) {
+                                                                                                                                                                              ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1169: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown Checkout dirToCheckoutGit(@org.checkerframework.checker.signature.qual.SignatureUnknown File gitDir, @org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir) {
+           ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1181: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown Checkout dirToCheckoutSvn(@org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir) {
+                                                                                                   ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1181: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown Checkout dirToCheckoutSvn(@org.checkerframework.checker.signature.qual.SignatureUnknown File parentDir) {
+           ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1299: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown FilePair removeCommonSuffixDirs(@org.checkerframework.checker.signature.qual.SignatureUnknown File p1, @org.checkerframework.checker.signature.qual.SignatureUnknown File p2, @org.checkerframework.checker.signature.qual.SignatureUnknown File p2Limit, @org.checkerframework.checker.signature.qual.SignatureUnknown String p1Contains) {
+                                                                                                         ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1299: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown FilePair removeCommonSuffixDirs(@org.checkerframework.checker.signature.qual.SignatureUnknown File p1, @org.checkerframework.checker.signature.qual.SignatureUnknown File p2, @org.checkerframework.checker.signature.qual.SignatureUnknown File p2Limit, @org.checkerframework.checker.signature.qual.SignatureUnknown String p1Contains) {
+                                                                                                                                                                                ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1299: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown FilePair removeCommonSuffixDirs(@org.checkerframework.checker.signature.qual.SignatureUnknown File p1, @org.checkerframework.checker.signature.qual.SignatureUnknown File p2, @org.checkerframework.checker.signature.qual.SignatureUnknown File p2Limit, @org.checkerframework.checker.signature.qual.SignatureUnknown String p1Contains) {
+                                                                                                                                                                                                                                                       ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1299: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown FilePair removeCommonSuffixDirs(@org.checkerframework.checker.signature.qual.SignatureUnknown File p1, @org.checkerframework.checker.signature.qual.SignatureUnknown File p2, @org.checkerframework.checker.signature.qual.SignatureUnknown File p2Limit, @org.checkerframework.checker.signature.qual.SignatureUnknown String p1Contains) {
+                                                                                                                                                                                                                                                                                                                                   ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1299: error: annotation type not applicable to this kind of declaration
+    static @org.checkerframework.checker.signature.qual.SignatureUnknown FilePair removeCommonSuffixDirs(@org.checkerframework.checker.signature.qual.SignatureUnknown File p1, @org.checkerframework.checker.signature.qual.SignatureUnknown File p2, @org.checkerframework.checker.signature.qual.SignatureUnknown File p2Limit, @org.checkerframework.checker.signature.qual.SignatureUnknown String p1Contains) {
+           ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1328: error: annotation type not applicable to this kind of declaration
+    private void addArg(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown String arg) {
+                                                                                                                ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1328: error: annotation type not applicable to this kind of declaration
+    private void addArg(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown String arg) {
+                                                                                                                                                                                                 ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1328: error: annotation type not applicable to this kind of declaration
+    private void addArg(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown String arg) {
+                        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1340: error: annotation type not applicable to this kind of declaration
+    private void addArgs(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown List<String> args) {
+                                                                                                                 ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1340: error: annotation type not applicable to this kind of declaration
+    private void addArgs(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown List<String> args) {
+                                                                                                                                                                                                  ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1340: error: annotation type not applicable to this kind of declaration
+    private void addArgs(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown List<String> args) {
+                         ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1391: error: annotation type not applicable to this kind of declaration
+    public void process(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts) {
+                                                                                                                ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1391: error: annotation type not applicable to this kind of declaration
+    public void process(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown Set<Checkout> checkouts) {
+                        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1746: error: annotation type not applicable to this kind of declaration
+    private @org.checkerframework.checker.signature.qual.SignatureUnknown Pattern defaultPattern = Pattern.compile("^default[ \t]*=[ \t]*(.*)");
+            ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1758: error: annotation type not applicable to this kind of declaration
+    private @org.checkerframework.checker.signature.qual.SignatureUnknown String defaultPath(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown File dir) {
+                                                                                                                                                                                     ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1758: error: annotation type not applicable to this kind of declaration
+    private @org.checkerframework.checker.signature.qual.SignatureUnknown String defaultPath(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown File dir) {
+                                                                                             ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1758: error: annotation type not applicable to this kind of declaration
+    private @org.checkerframework.checker.signature.qual.SignatureUnknown String defaultPath(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown File dir) {
+            ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1777: error: annotation type not applicable to this kind of declaration
+    private @org.checkerframework.checker.signature.qual.SignatureUnknown Pattern invalidCertificatePattern = Pattern.compile("^https://[^.]*[.][^.]*[.]googlecode[.]com/hg$");
+            ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1785: error: annotation type not applicable to this kind of declaration
+    private  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean invalidCertificate(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown File dir) {
+                                                                                                                                                                                              ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1785: error: annotation type not applicable to this kind of declaration
+    private  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean invalidCertificate(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown File dir) {
+                                                                                                      ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1785: error: annotation type not applicable to this kind of declaration
+    private  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean invalidCertificate(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown File dir) {
+             ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1805: error: annotation type not applicable to this kind of declaration
+     @org.checkerframework.checker.signature.qual.SignatureUnknown int perform_command(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown List<Replacer> replacers,  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean showNormalOutput) {
+                                                                                                                                                                               ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1805: error: annotation type not applicable to this kind of declaration
+     @org.checkerframework.checker.signature.qual.SignatureUnknown int perform_command(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown List<Replacer> replacers,  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean showNormalOutput) {
+                                                                                                                                                                                                                                                                ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1805: error: annotation type not applicable to this kind of declaration
+     @org.checkerframework.checker.signature.qual.SignatureUnknown int perform_command(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown List<Replacer> replacers,  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean showNormalOutput) {
+                                                                                                                                                                                                                                                                                                                                                         ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1805: error: annotation type not applicable to this kind of declaration
+     @org.checkerframework.checker.signature.qual.SignatureUnknown int perform_command(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown List<Replacer> replacers,  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean showNormalOutput) {
+                                                                                       ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1805: error: annotation type not applicable to this kind of declaration
+     @org.checkerframework.checker.signature.qual.SignatureUnknown int perform_command(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb, @org.checkerframework.checker.signature.qual.SignatureUnknown List<Replacer> replacers,  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean showNormalOutput) {
+     ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1933: error: annotation type not applicable to this kind of declaration
+    @org.checkerframework.checker.signature.qual.SignatureUnknown String command(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb) {
+                                                                                                                                                                         ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1933: error: annotation type not applicable to this kind of declaration
+    @org.checkerframework.checker.signature.qual.SignatureUnknown String command(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb) {
+                                                                                 ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1933: error: annotation type not applicable to this kind of declaration
+    @org.checkerframework.checker.signature.qual.SignatureUnknown String command(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown ProcessBuilder pb) {
+    ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:576: error: annotation @SignatureUnknown not applicable in this type context
+    public MultiVersionControl(@org.checkerframework.checker.signature.qual.SignatureUnknown String @org.checkerframework.checker.signature.qual.SignatureUnknown [] args) {
+                                                                                                    ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:590: error: annotation @SignatureUnknown not applicable in this type context
+    public void parseArgs(@org.checkerframework.checker.signature.qual.SignatureUnknown MultiVersionControl this, @org.checkerframework.checker.signature.qual.SignatureUnknown String @org.checkerframework.checker.signature.qual.SignatureUnknown [] args) {
+                                                                                                                                                                                       ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1355: error: annotation type not applicable to this kind of declaration
+        @org.checkerframework.checker.signature.qual.SignatureUnknown Pattern regexp;
+        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1360: error: annotation type not applicable to this kind of declaration
+        @org.checkerframework.checker.signature.qual.SignatureUnknown String replacement;
+        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1368: error: annotation type not applicable to this kind of declaration
+        public Replacer(@org.checkerframework.checker.signature.qual.SignatureUnknown String regexp, @org.checkerframework.checker.signature.qual.SignatureUnknown String replacement) {
+                        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1368: error: annotation type not applicable to this kind of declaration
+        public Replacer(@org.checkerframework.checker.signature.qual.SignatureUnknown String regexp, @org.checkerframework.checker.signature.qual.SignatureUnknown String replacement) {
+                                                                                                     ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1380: error: annotation type not applicable to this kind of declaration
+        public @org.checkerframework.checker.signature.qual.SignatureUnknown String replaceAll(@org.checkerframework.checker.signature.qual.SignatureUnknown Replacer this, @org.checkerframework.checker.signature.qual.SignatureUnknown String s) {
+                                                                                                                                                                            ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1380: error: annotation type not applicable to this kind of declaration
+        public @org.checkerframework.checker.signature.qual.SignatureUnknown String replaceAll(@org.checkerframework.checker.signature.qual.SignatureUnknown Replacer this, @org.checkerframework.checker.signature.qual.SignatureUnknown String s) {
+                                                                                               ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1380: error: annotation type not applicable to this kind of declaration
+        public @org.checkerframework.checker.signature.qual.SignatureUnknown String replaceAll(@org.checkerframework.checker.signature.qual.SignatureUnknown Replacer this, @org.checkerframework.checker.signature.qual.SignatureUnknown String s) {
+               ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1267: error: annotation type not applicable to this kind of declaration
+        final @org.checkerframework.checker.signature.qual.SignatureUnknown File file1;
+              ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1272: error: annotation type not applicable to this kind of declaration
+        final @org.checkerframework.checker.signature.qual.SignatureUnknown File file2;
+              ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1280: error: annotation type not applicable to this kind of declaration
+        FilePair(@org.checkerframework.checker.signature.qual.SignatureUnknown File file1, @org.checkerframework.checker.signature.qual.SignatureUnknown File file2) {
+                 ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1280: error: annotation type not applicable to this kind of declaration
+        FilePair(@org.checkerframework.checker.signature.qual.SignatureUnknown File file1, @org.checkerframework.checker.signature.qual.SignatureUnknown File file2) {
+                                                                                           ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1078: error: annotation type not applicable to this kind of declaration
+        public  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean accept(@org.checkerframework.checker.signature.qual.SignatureUnknown IsDirectoryFilter this, @org.checkerframework.checker.signature.qual.SignatureUnknown File pathname) {
+                                                                                                                                                                                   ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1078: error: annotation type not applicable to this kind of declaration
+        public  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean accept(@org.checkerframework.checker.signature.qual.SignatureUnknown IsDirectoryFilter this, @org.checkerframework.checker.signature.qual.SignatureUnknown File pathname) {
+                                                                                             ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1078: error: annotation type not applicable to this kind of declaration
+        public  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean accept(@org.checkerframework.checker.signature.qual.SignatureUnknown IsDirectoryFilter this, @org.checkerframework.checker.signature.qual.SignatureUnknown File pathname) {
+                ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:684: error: annotation type not applicable to this kind of declaration
+        @org.checkerframework.checker.signature.qual.SignatureUnknown RepoType repoType;
+        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:689: error: annotation type not applicable to this kind of declaration
+        @org.checkerframework.checker.signature.qual.SignatureUnknown File directory;
+        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:694: error: annotation type not applicable to this kind of declaration
+        @org.checkerframework.checker.signature.qual.SignatureUnknown String canonicalDirectory;
+        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:703: error: annotation type not applicable to this kind of declaration
+        @org.checkerframework.checker.signature.qual.SignatureUnknown String repository;
+        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:709: error: annotation type not applicable to this kind of declaration
+        @org.checkerframework.checker.signature.qual.SignatureUnknown String module;
+        ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:729: error: annotation type not applicable to this kind of declaration
+        Checkout(@org.checkerframework.checker.signature.qual.SignatureUnknown RepoType repoType, @org.checkerframework.checker.signature.qual.SignatureUnknown File directory, @org.checkerframework.checker.signature.qual.SignatureUnknown String repository, @org.checkerframework.checker.signature.qual.SignatureUnknown String module) {
+                 ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:729: error: annotation type not applicable to this kind of declaration
+        Checkout(@org.checkerframework.checker.signature.qual.SignatureUnknown RepoType repoType, @org.checkerframework.checker.signature.qual.SignatureUnknown File directory, @org.checkerframework.checker.signature.qual.SignatureUnknown String repository, @org.checkerframework.checker.signature.qual.SignatureUnknown String module) {
+                                                                                                  ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:729: error: annotation type not applicable to this kind of declaration
+        Checkout(@org.checkerframework.checker.signature.qual.SignatureUnknown RepoType repoType, @org.checkerframework.checker.signature.qual.SignatureUnknown File directory, @org.checkerframework.checker.signature.qual.SignatureUnknown String repository, @org.checkerframework.checker.signature.qual.SignatureUnknown String module) {
+                                                                                                                                                                                ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:729: error: annotation type not applicable to this kind of declaration
+        Checkout(@org.checkerframework.checker.signature.qual.SignatureUnknown RepoType repoType, @org.checkerframework.checker.signature.qual.SignatureUnknown File directory, @org.checkerframework.checker.signature.qual.SignatureUnknown String repository, @org.checkerframework.checker.signature.qual.SignatureUnknown String module) {
+                                                                                                                                                                                                                                                                 ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:797: error: annotation type not applicable to this kind of declaration
+        private static void assertSubdirExists(@org.checkerframework.checker.signature.qual.SignatureUnknown File directory, @org.checkerframework.checker.signature.qual.SignatureUnknown String subdirName) {
+                                               ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:797: error: annotation type not applicable to this kind of declaration
+        private static void assertSubdirExists(@org.checkerframework.checker.signature.qual.SignatureUnknown File directory, @org.checkerframework.checker.signature.qual.SignatureUnknown String subdirName) {
+                                                                                                                             ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:804: error: annotation type not applicable to this kind of declaration
+        public  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean equals(@org.checkerframework.checker.signature.qual.SignatureUnknown Checkout this, @org.checkerframework.checker.signature.qual.SignatureUnknown Object other) {
+                                                                                                                                                                          ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:804: error: annotation type not applicable to this kind of declaration
+        public  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean equals(@org.checkerframework.checker.signature.qual.SignatureUnknown Checkout this, @org.checkerframework.checker.signature.qual.SignatureUnknown Object other) {
+                                                                                             ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:804: error: annotation type not applicable to this kind of declaration
+        public  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean equals(@org.checkerframework.checker.signature.qual.SignatureUnknown Checkout this, @org.checkerframework.checker.signature.qual.SignatureUnknown Object other) {
+                ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:813: error: annotation type not applicable to this kind of declaration
+        public  @org.checkerframework.checker.signature.qual.SignatureUnknown int hashCode(@org.checkerframework.checker.signature.qual.SignatureUnknown Checkout this) {
+                                                                                           ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:813: error: annotation type not applicable to this kind of declaration
+        public  @org.checkerframework.checker.signature.qual.SignatureUnknown int hashCode(@org.checkerframework.checker.signature.qual.SignatureUnknown Checkout this) {
+                ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:818: error: annotation type not applicable to this kind of declaration
+        public @org.checkerframework.checker.signature.qual.SignatureUnknown String toString(@org.checkerframework.checker.signature.qual.SignatureUnknown Checkout this) {
+                                                                                             ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:818: error: annotation type not applicable to this kind of declaration
+        public @org.checkerframework.checker.signature.qual.SignatureUnknown String toString(@org.checkerframework.checker.signature.qual.SignatureUnknown Checkout this) {
+               ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:777: error: annotation type not applicable to this kind of declaration
+            static final  @org.checkerframework.checker.signature.qual.SignatureUnknown long serialVersionUID = 20191205;
+                          ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:785: error: annotation type not applicable to this kind of declaration
+            DirectoryDoesNotExist(@org.checkerframework.checker.signature.qual.SignatureUnknown String msg) {
+                                  ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1950: error: annotation type not applicable to this kind of declaration
+        public  @org.checkerframework.checker.signature.qual.SignatureUnknown int read(@org.checkerframework.checker.signature.qual.SignatureUnknown StreamOfNewlines this) {
+                                                                                       ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1950: error: annotation type not applicable to this kind of declaration
+        public  @org.checkerframework.checker.signature.qual.SignatureUnknown int read(@org.checkerframework.checker.signature.qual.SignatureUnknown StreamOfNewlines this) {
+                ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:935: error: annotation type not applicable to this kind of declaration
+                        public  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean accept(@org.checkerframework.checker.signature.qual.SignatureUnknown File file) {
+                                                                                                             ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:935: error: annotation type not applicable to this kind of declaration
+                        public  @org.checkerframework.checker.signature.qual.SignatureUnknown boolean accept(@org.checkerframework.checker.signature.qual.SignatureUnknown File file) {
+                                ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1057: error: annotation type not applicable to this kind of declaration
+            public  @org.checkerframework.checker.signature.qual.SignatureUnknown int compare(@org.checkerframework.checker.signature.qual.SignatureUnknown File o1, @org.checkerframework.checker.signature.qual.SignatureUnknown File o2) {
+                                                                                              ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1057: error: annotation type not applicable to this kind of declaration
+            public  @org.checkerframework.checker.signature.qual.SignatureUnknown int compare(@org.checkerframework.checker.signature.qual.SignatureUnknown File o1, @org.checkerframework.checker.signature.qual.SignatureUnknown File o2) {
+                                                                                                                                                                     ^
+/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1822: warning: [cast] redundant cast to String[]
+        String[] args = (String[]) pb.command().toArray(new String[0]);
+                        ^
+100 errors
+1 warning
+only showing the first 100 errors, of 101 total; use -Xmaxerrs if you would like to see more
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
