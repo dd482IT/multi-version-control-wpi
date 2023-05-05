@@ -1,18 +1,28 @@
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:704: warning: [samelen:assignment] incompatible types in assignment.
+> Task :compileJava
+/Users/daniel/Documents/NJIT/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:704: warning: [samelen:assignment] incompatible types in assignment.
       this.module = module;
                     ^
   found   : @SameLen("module") String
   required: @SameLen("this.module") String
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1054: warning: [lock:argument] incompatible argument for parameter dir of findCheckouts.
+/Users/daniel/Documents/NJIT/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:1054: warning: [lock:argument] incompatible argument for parameter dir of findCheckouts.
       findCheckouts(childdir, checkouts, ignoreDirs);
                     ^
   found   : @GuardedBy File
   required: @NewObject File
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:532: warning: [nullness:contracts.precondition] precondition of mvc.process is not satisfied.
+/Users/daniel/Documents/NJIT/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:532: warning: [nullness:contracts.precondition] precondition of mvc.process is not satisfied.
     mvc.process(checkouts);
                ^
   found   : mvc.action is @Nullable
   required: mvc.action is @NonNull
-/Users/daniel/Documents/njit/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:555: warning: [nullness:method.invocation] call to parseArgs(java.lang.String[]) not allowed on the given receiver.
+/Users/daniel/Documents/NJIT/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:555: warning: [nullness:method.invocation] call to parseArgs(java.lang.String[]) not allowed on the given receiver.
     parseArgs(args);
              ^
+  found   : @UnderInitialization(org.plumelib.multiversioncontrol.MultiVersionControl.class) @NonNull MultiVersionControl
+  required: @Initialized @NonNull MultiVersionControl
+/Users/daniel/Documents/NJIT/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:565: warning: [nullness:unneeded.suppression] warning suppression "nullness:assignment" is not used by NullnessChecker
+    @SuppressWarnings(
+    ^
+/Users/daniel/Documents/NJIT/WPI-Research/experiments-live/multi-version-control-wpi/src/main/java/org/plumelib/multiversioncontrol/MultiVersionControl.java:543: warning: [initializedfields:unneeded.suppression] warning suppression "initializedfields:contracts.postcondition" is not used by InitializedFieldsChecker
+  @SuppressWarnings({
+  ^
+6 warnings
